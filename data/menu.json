@@ -1,0 +1,169 @@
+{
+  "menu": {
+    "mainmenu": [
+      {
+        "name": "Home",
+        "URL": "/",
+        "weight": 1
+      },
+      {
+        "name": "About",
+        "URL": "/about-us",
+        "weight": 2,
+        "children": [
+          {
+            "name": "Profile",
+            "URL": "/about-us/profile",
+            "order": 1
+          },
+          {
+            "name": "History",
+            "URL": "/about-us/history",
+            "order": 2
+          },
+          {
+            "name": "Message",
+            "URL": "/about-us/message",
+            "order": 2
+          },
+          {
+            "name": "Foreword",
+            "URL": "/about-us/foreword",
+            "order": 2
+          },
+          {
+            "name": "Management",
+            "URL": "/about-us/management",
+            "order": 3
+          },
+          {
+            "name": "Facilitators",
+            "URL": "/about-us/facilitators",
+            "order": 4
+          }
+        ]  
+      },
+      {
+        "name": "Admission",
+        "URL": "/admissions",
+        "weight": 3,
+        "children": [
+          {
+            "name": "Procedure",
+            "URL": "/admissions/procedure",
+            "order": 1
+          },
+          {
+            "name": "Fees",
+            "URL": "/admissions/fees",
+            "order": 2
+          },
+          {
+            "name": "Curriculum",
+            "URL": "/admissions/curriculum",
+            "order": 3
+          },
+          {
+            "name": "Facilities",
+            "URL": "/admissions/facilities",
+            "order": 4
+          },
+          {
+            "name": "New Students",
+            "URL": "/admissions/new-students",
+            "order": 5
+          },
+          {
+            "name": "Transfer Out",
+            "URL": "/admissions/transfer-out",
+            "order": 6
+          }
+        ]
+      },
+      {
+        "name": "@School",
+        "URL": "/student-life",
+        "weight": 4,
+        "children": [
+          {
+            "name": "Discipline",
+            "URL": "/@school/discipline",
+            "order": 1
+          },
+          {
+            "name": "Activities",
+            "URL": "/@school/activities",
+            "order": 2
+          },
+          {
+            "name": "House System",
+            "URL": "/@school/house-system",
+            "order": 3
+          },
+          {
+            "name": "Awards",
+            "URL": "/@school/awards",
+            "order": 4
+          },
+          {
+            "name": "Forms",
+            "URL": "/@school/forms",
+            "order": 5
+          },
+          {
+            "name": "Useful Resources",
+            "URL": "/@school/useful-resources",
+            "order": 6
+          }
+        ]
+      },
+      {
+        "name": "Updates",
+        "URL": "/updates",
+        "weight": 5,
+        "children": [
+          {
+            "name": "Calendar",
+            "URL": "/updates/calendar",
+            "order": 1
+          },
+          {
+            "name": "Circulars",
+            "URL": "/updates/circulars",
+            "order": 2
+          },
+          {
+            "name": "Newsletter",
+            "URL": "/updates/newsletter",
+            "order": 3
+          },
+          {
+            "name": "In The News",
+            "URL": "/updates/in-the-news",
+            "order": 4
+          },
+          {
+            "name": "Achievements",
+            "URL": "/updates/achievements",
+            "order": 5
+          },
+          {
+            "name": "Events",
+            "URL": "/updates/events",
+            "order": 6
+          },
+          {
+            "name": "Gallery",
+            "URL": "/updates/gallery",
+            "order": 7
+          }
+        ]
+      },
+      {
+        "name": "Connect",
+        "URL": "/connect",
+        "weight": 6
+      }
+    ]
+  }
+}

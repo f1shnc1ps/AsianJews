@@ -1,0 +1,54 @@
+{
+  "contacttext": "The Asian School is located in Tubli, off the arterial Shaikh Isa Bin Salman Highway.",
+  "googlemap": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7160.181562923028!2d50.537855!3d26.193725!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a68ae60ae86c3e7!2sThe%20Asian%20School!5e0!3m2!1sen!2sin!4v1663048245133!5m2!1sen!2sin",
+  "schooladdress": {
+    "title": "Physical Address",
+    "school": "THE ASIAN SCHOOL, BAHRAIN",
+    "icon": "fa-solid:map-marker-alt",
+    "add1": "263, Avenue 13,",
+    "add2": "Block 701, Tubli,",
+    "add3": "Kingdom of Bahrain"
+  },
+  "mailingaddress": {
+    "title": "Mailing Address",
+    "school": "THE ASIAN SCHOOL, BAHRAIN",
+    "add1": "The Asian School",
+    "add2": "P.O. Box 1143, Manama",
+    "add3": "Kingdom of Bahrain"
+  },
+  "phone1": {
+    "link": "tel:+97317722886",
+    "icon": "fa-solid:phone-alt",
+    "text": "+973 17722886"
+  },
+  "phone2": {
+    "link": "tel:+97317728857",
+    "icon": "fa-solid:phone-alt",
+    "text": "+973 17728857"
+  },
+  "fax": {
+    "link": "",
+    "icon": "fa-solid:fax",
+    "text": "+973 17720207"
+  },
+  "email": {
+    "link": "mailto:info@asianschool.bh",
+    "icon": "fa-solid:envelope",
+    "text": "info@asianschool.bh"
+  },
+  "parentportal": {
+    "link": "https://asbdc.ethdigitalcampus.com/ASBDC/",
+    "icon": "/images/parent-portal.svg",
+    "text": "Parent Portal"
+  },
+  "careers": {
+    "link": "https://careers.asianschool.bh/",
+    "icon": "/images/careers.svg",
+    "text": "Careers"
+  },
+  "publicdisclosure": {
+    "link": "/pdf/Public-Disclosure.pdf",
+    "icon": "/images/public-disclosure.svg",
+    "text": "Public Disclosure"
+  }
+}
