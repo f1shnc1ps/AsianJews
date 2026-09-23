@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@achievements/*": ["components/achievements/*"],
+        "@activities/*": ["components/activities/*"],
+        "@facilities/*": ["components/facilities/*"],
+        "@admission-procedure/*": ["components/admission-procedure/*"],
+        "@buttons/*": ["components/buttons/*"],
+        "@curriculum/*": ["components/curriculum/*"],
+        "@display-items/*": ["components/display-items/*"],
+        "@events/*": ["components/events/*"],
+        "@fees/*": ["components/fees/*"],
+        "@home-page/*": ["components/home-page/*"],
+        "@layout/*": ["components/layout/*"],
+        "@lightbox-gallery/*": ["components/lightbox-gallery/*"],
+        "@new-students/*": ["components/new-students/*"],
+        "@profile/*": ["components/profile/*"],
+        "@staff/*": ["components/staff/*"],
+        "@test/*": ["components/test/*"],
+        "@transfer-out/*": ["components/transfer-out/*"],
+        "@data/*": ["data/*"]
+      }
+    }
+  }

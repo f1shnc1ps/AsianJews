@@ -1,0 +1,12 @@
+ .card {
+  border: none;
+}
+
+.card:last-of-type {
+  border: none;
+} 
+
+.card-header{ 
+  border: none; 
+  border-bottom: 2px solid var(--asb-main); 
+}

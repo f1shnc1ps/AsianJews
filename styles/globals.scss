@@ -1,0 +1,48 @@
+@forward "components";
+
+:root {
+  --asb-main: #d47a0c;
+  --asb-main-light: #feebd6;
+  --asb-secondary: #707070;
+  --asb-accent: #ededed;
+  --asb-font-headings: "Roboto", sans-serif;
+  --asb-font-paragraph: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: var(--asb-font-paragraph);
+  font-size: 18px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    color: var(--asb-main);
+    cursor: pointer;
+  }
+}
+
+ol,
+ul {
+  padding-left: 1.5rem; 
+  & li {
+    margin-bottom: 0.8rem; 
+  }
+}

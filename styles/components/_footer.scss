@@ -1,0 +1,32 @@
+.footer-contact { 
+  padding-left: 0;
+  & li {
+    margin-left: 0;
+    list-style: none;
+    & ::before{
+      content: '';
+      padding: 0;
+  }
+    & a {
+      text-decoration: none;
+      color: white;
+      transition: font-weight 0.2s ease-in-out;
+      &:hover { 
+        font-weight: 600;
+      }
+    }
+  }
+
+}
+
+.footer-links{
+  & a {
+    font-size: 1.1rem !important;
+    text-decoration: none;
+    color: white;
+    transition: font-weight 0.2s ease-in-out;
+    &:hover { 
+      font-weight: 600; 
+    }
+  }
+} 

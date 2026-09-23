@@ -1,0 +1,110 @@
+.round-button-container {
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  border: none;
+  &:hover {
+    background-color: transparent !important;
+  }
+  &.disable{
+    &:hover{ 
+      cursor: context-menu;
+    }
+  }
+}
+
+.round-button-icon-container {
+  border-radius: 50%;
+  background-color: var(--asb-main);
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+  &svg {
+    color: white;
+  }
+  &:hover {
+    transform: scale(1.1);
+    color: var(--asb-main-light) !important;
+  } 
+  &.disable{
+    &:hover{
+      transform: scale(0.99);
+      color: white !important;
+      cursor: context-menu;
+    }
+  }
+
+}
+
+.round-button-text {
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--asb-secondary);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.small-round-button-container {
+  display: grid;
+  place-items: center;
+  background-color: transparent;
+  border: none;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.small-round-button-icon-container {
+  border-radius: 50%;
+  background-color: var(--asb-main);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+  &svg {
+    color: white;
+  }
+  &:hover {
+    transform: scale(1.1);
+    color: var(--asb-main-light) !important;
+  }
+}
+
+.small-round-button-text {
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--asb-secondary);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.topicon {
+  z-index: 3800;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  .round-button-icon-container { 
+    width: 3.2em;
+    height: 3.2rem;
+  }
+
+  .round-button-text {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+  }
+
+  .topicon {
+    bottom: 2.2rem;
+    right: 0.5rem;
+  }
+}

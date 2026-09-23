@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Colors map
+$custom-colors: (
+  "asb-main": (hsl(33, 89%, 44%)), 
+  "asb-main-light": hsl(31, 95%, 92%),
+  "asb-secondary": (hsl(0, 0%, 44%)), 
+  "asb-accent": (hsl(0, 0%, 93%)),
+);
+ 
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--asb-font-headings);
+}
+
+h1 {
+  font-size: 2.2rem; //40px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.8rem; //34px;
+}
+
+h3 {
+  font-size: 1.6rem; //30px;
+}
+
+h4 {
+  font-size: 1.4rem; //26px;
+}
+
+h5 {
+  font-size: 1.2rem; //22px;
+}
+
+h6 {
+  font-size: 0.8rem; //16px
+}
+
+p {
+  font-family: var(--asb-font-paragraph);
+  font-size: 1rem;
+}
+
+.page-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 4rem 0;
+    color: #d47a0c;
+    font-weight: 900;
+  }
+
+.modal-header{
+  display: block;
+}

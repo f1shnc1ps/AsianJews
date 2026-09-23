@@ -1,0 +1,71 @@
+.resource-link {
+  text-decoration: none;
+  color: var(--asb-primary);
+  & :hover {
+    color: var(--asb-secondary);
+  }
+}
+
+.contact {
+  line-height: 1.5rem;
+  padding-left: 0;
+  & li {
+    margin-left: 0;
+    list-style: none;
+    & a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 600;
+      transition: color 0.5s ease-out;
+      &:hover {
+        color: var(--asb-primary);
+      }
+    }
+  }
+}
+
+.achievement {
+  width: 25ch;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 0.8rem !important;
+}
+
+
+.curriculum-container{
+  margin: 1.5rem 3rem 1.5rem 3rem;
+  padding: 1.5rem 3rem 1.5rem 3rem; 
+  & table {
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0; 
+    & th p {
+      margin: 1rem 0 0.5rem 0;
+    }  
+    & tr { 
+      border-bottom: 1px solid rgb(218, 218, 218);
+    }
+    & td {
+      padding: 0.2rem 0;
+      & p{
+          margin-bottom: 0;
+          padding-right: 1rem;
+      }
+    }
+  } 
+}
+
+/* Management Directors*/
+.truncate p:first-child {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+          line-clamp: 12; 
+  -webkit-box-orient: vertical;
+}
+
+.truncate p:nth-child(2),
+.truncate p:nth-child(3),
+.truncate p:nth-child(4) {
+  display: none;
+}

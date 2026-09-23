@@ -1,0 +1,163 @@
+.lightbox-overlay {
+  z-index: 1030 !important;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background: rgba(39, 39, 39, 0.8);
+  //   & p {
+  //     color: white;
+  //     text-align: center;
+  //     font-weight: bold;
+  //     font-size: 1.2em;
+  //     margin: 0.5em 0;
+  //   }
+  //   & svg {
+  //     border: white 1px solid;
+  //     fill: blue;
+  //     margin: 10px;
+  //     padding: 5px;
+  //     &:hover {
+  //       border: green;
+  //       fill: yellow;
+  //       cursor: pointer;
+  //     }
+  //   }
+}
+
+header {
+  &.top-header-bar {
+    cursor: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.4rem;
+    color: inherit;
+    background-color: var(--asb-secondary);
+  }
+  & div,
+  h2,
+  h4,
+  button {
+    // height: inherit;
+    text-align: center;
+  }
+}
+
+.gallery-container {
+  overflow-y: auto;
+  // height: 100%;
+  // max-height: calc(100% - 4em);
+  // padding: 0.5rem;
+}
+
+.left-side-description-container {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  // padding: 0.5rem 0 0.8rem 2rem; 
+  // width: 100%;
+}
+
+.gallery-heading {
+  & h2 {
+    margin: 0;
+    font-weight: normal;
+    color: white;
+  }
+}
+
+h4.gallery-subheading {
+  margin: 0; 
+  color: white; 
+}
+
+
+.right-side-container {
+  width: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 0.4rem;
+}
+
+span {
+  &.page-indicator {
+    white-space: nowrap;
+    min-width: 2rem;
+    text-align: center;
+    color: white;
+  }
+}
+
+
+
+.image-overlay-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  background: rgba(39, 39, 39, 0.5);
+  & p {
+    color: white;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+}
+
+.button-control {
+  z-index: 10;
+  background: none;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  color: white;
+  transition: color 0.2s linear;
+  &.left {
+    position: absolute;
+    left: 1rem;
+  }
+  &.right {
+    position: absolute;
+    right: 1rem;
+  }
+  & :hover {
+    color: var(--asb-main);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  color: white;
+  text-align: center;
+}
+
+.overlay-container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  transition: border-color 0.2s linear;
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  border-width: 2px;
+  border-color: transparent;
+  border-style: solid;
+  & :hover {
+    border-color: blue;
+  }
+}
+
+.image {
+  & img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+  }
+}

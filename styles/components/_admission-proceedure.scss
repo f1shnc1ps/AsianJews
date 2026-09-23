@@ -1,0 +1,48 @@
+ul.admission-checklist {
+  list-style: none;
+  list-style-position: outside !important;
+  & li {
+    padding: 0 0 0 0.2rem;
+    & ::before {
+      content: url("https://api.iconify.design/prime/check-circle.svg?color=%23d47a0c&width=40");
+      padding: 0 0.4rem 0 0;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    & sup::before{
+      content: '';
+      margin-left: -0.5rem;
+    }
+  }
+}
+
+.step-container{
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    & table {  
+      & tr { 
+        border-bottom: 1px solid rgb(218, 218, 218);
+      }
+      & td {
+        padding: 0.2rem 0;
+        & p{
+            margin-bottom: 0;
+            padding-right: 1rem;
+        }
+      }
+    } 
+  } 
+
+@media (max-width: 768px) {
+    .step-container{
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .step-container{
+        margin: 0.25rem;
+        padding: 0.25rem;
+    }
+  }

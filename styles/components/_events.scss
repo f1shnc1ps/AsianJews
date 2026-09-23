@@ -1,0 +1,29 @@
+#category-options {
+    display: flex;  
+    gap: 1rem;
+    margin: 0.8rem;
+  }
+  
+  .filter-option,
+  .active-option {
+    padding: .5rem 2rem; 
+    border-radius: 2rem;
+    border: 1px solid var(--asb-main);
+  }
+   
+  #category-input {
+    width: 80px;
+    margin: 0 10px;
+    height: 30px; 
+  }
+  
+  .filter-option:hover,
+  .active-option {
+    background-color: var(--asb-main);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    transition: all 0.1s;
+  }
+  
